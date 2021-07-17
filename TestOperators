@@ -1,0 +1,35 @@
+public class Declaraciones_Operadores {
+
+	public static void main(String[] args) {
+		
+		int a=5;
+		
+		int b;
+		
+		b=7;
+		
+		int c=b+a;
+		
+		c++;
+		
+		c-=6;
+		
+		float d=b/a; //Encara que inicii la variable d com a tipus float, el resultat de 
+					//la divisió entre de dos enters continua essent un enter
+		
+		
+		// Per fer la divisió amb la part decimal, s'han de dividir dos variables tipus float(o double)
+		
+		float b1=b;
+		
+		float a1=a;
+		
+		float e=b1/a1;
+		
+		System.out.println(c);
+		System.out.println("La divisió sense decimals de " + b + " entre " + a + " és " + d);
+		System.out.println("La divisió amb decimals de " + b + " entre " + a + " és " + e);
+
+	}
+
+}
