@@ -1,0 +1,60 @@
+
+public class Calculos_conMath {
+
+	public static void main(String[] args) {
+
+		//Arrel quadrada
+		
+		double raiz=Math.sqrt(9);
+		
+		//Round
+		
+		float num1=5.85F;//per declarar una variable float, s'ha de posar la "F" al final (se'n dius "cast" d'aixó) 
+		
+		int resultado1=Math.round(num1); //Math.round torna un enter si li entro un float
+		
+		double num2=5.85;
+		
+		double resultado2=Math.round(num2); //Math.round torna un double si li entro un double
+				
+		System.out.println(raiz);
+		
+		System.out.println(resultado1);
+		
+		System.out.println(resultado2);
+		
+		//Refundicio: transforma un tipus de dada a un altre tipus
+		
+		double num3=Math.sqrt(num2);
+		
+		int raiz2=(int)Math.round(num3);
+		
+		System.out.println(raiz2);
+		
+		//Potencies
+		
+		double base=5;
+		
+		double exponent=3;
+		
+		double potencia1=Math.pow(base, exponent);
+		
+		System.out.println(potencia1);
+		
+		//Freestyle potencia amb refundicio
+		
+		int potencia2=(int)Math.pow(base, exponent);
+		
+		System.out.println(potencia2);
+		
+		//Valor absolut
+		
+		double absolut1=Math.abs(num3);
+		
+		System.out.println(absolut1);
+
+
+		
+	}
+
+}
